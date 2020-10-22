@@ -1,0 +1,98 @@
+
+.headline {
+    display: flex;
+    /* justify-content: center; */
+    font-family: var(--font-main);
+    /* border: 1px solid orange; */
+}
+
+.homeText {
+    /* border: 1px solid black; */
+    margin-left: 15%;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    /* justify-content: space-evenly; */
+    margin-top: -80px;
+    margin-bottom: -60px;
+    
+}
+#socialMedia {
+    font-family: var(--font-cursive);
+    font-size: 450%;
+    /* border: 1px solid black; */
+    /* margin-top: -70px; */
+    /* margin-left: 30px; */
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+
+.homeParallax {
+    background-image: url('../Assets/hourGlass.jpg');
+    height: 25rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hourglassClass {
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.homeBlurb {
+    /* border: 1px solid black; */
+    width: 80vw;
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: x-large;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    text-align: center;
+    color: black;
+    
+}
+
+
+
+.tulipComputer {
+    background-image: url('../Assets/tulipComputer.jpg');
+    height: 30rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coffeeTulip {
+    background-image: url('../Assets/coffeeTulip.jpg');
+    height: 30rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#homeBlurb3 {
+    color: black;
+    /* border: 1px solid salmon; */
+    /* margin-bottom: 80px; */
+}
+
+#contactMeLink {
+    text-decoration: underline;
+}
+
+.pinkWhiteTulip {
+    background-image: url('../Assets/pinkWhitetulip.jpg');
+    height: 30rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
