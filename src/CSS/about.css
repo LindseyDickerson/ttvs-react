@@ -52,3 +52,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.nonNegotiables {
+    /* display: flex; */
+    
+}
+
+.nnBlurb {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-main);
+}
+
+.nnImageDiv {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+.nnimages {
+    flex-direction: row;
+    align-content: flex-end;
+    height: 250px;
+    width: 250px;
+}

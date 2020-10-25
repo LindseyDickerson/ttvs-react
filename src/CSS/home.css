@@ -1,20 +1,29 @@
+/* 
+.smParallax {
+    background-image: url('../Assets/socialMedia.jpg');
+    height: 20rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 .headline {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     font-family: var(--font-main);
     /* border: 1px solid orange; */
 }
 
 .homeText {
     /* border: 1px solid black; */
-    margin-left: 15%;
-    display: flex;
+    /* margin-left: 15%; */
+    /* display: flex; */
     align-items: baseline;
     flex-wrap: nowrap;
-    /* justify-content: space-evenly; */
-    margin-top: -80px;
-    margin-bottom: -60px;
+    justify-content: center;
+    /* margin-top: -80px; */
+    /* margin-bottom: -60px; */
     
 }
 #socialMedia {

@@ -1,32 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Parallax , ParallaxBanner } from 'react-scroll-parallax';
 
-import Hourglass from '../Assets/hourGlass.jpg';
-import TulipComputer from '../Assets/tulipComputer.jpg';
+// import Hourglass from '../Assets/hourGlass.jpg';
+// import TulipComputer from '../Assets/tulipComputer.jpg';
 
 
 function Home() {
-//    const [offset, setoffset] = useState(0);
-
-//    useEffect(() => {
-//        function handleScroll() {
-//            setoffset(window.pageYOffset)
-//        }
-
-//        window.addEventListener("scroll", handleScroll);
-
-//        return () => {
-//            window.removeEventListener("scroll", handleScroll);
-//        }
-//    }, []);
 
     return (
       <div className="Home">
+
+        <Parallax className="smParallax"></Parallax>  
         <div className="homeText">
-            <h1 className="headline" id="is">
+            {/* <h1 className="headline" id="is">
                 Is </h1> 
-                <p id="socialMedia">Social Media</p> 
-                <h1 className="headline" id="takingTime">taking time away from your business?
+                <p id="socialMedia">Social Media</p>  */}
+                <h1 className="headline" id="takingTime">Is social media taking time away from your business?
             </h1>
         </div>
         <Parallax className="homeParallax" >

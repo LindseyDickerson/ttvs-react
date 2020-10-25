@@ -1,6 +1,9 @@
 import React from 'react';
 import {Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
+import BLM from '../Assets/BLM.png';
+import LGBTQIA from '../Assets/LGBTQIAFriendly.png';
+
 function About() {
     return (
       <div className="About">
@@ -20,7 +23,14 @@ function About() {
       <Parallax className="aboutParallax5"></Parallax>
       <p className="aboutBlurb">In my personal time, I enjoy cooking, reading, and spending time with my husband, daughter, and our two cats. I love learning new skills. I also like to volunteer my time to organizations that combat food insecurity.
       </p>
-      
+      <div className="nonNegotiables">
+        <h3 className="nnBlurb">I am proud to stand with those in the BIPOC and LGBTQIA+ community in solidarity.</h3>
+        <br/>
+        <div className="nnImageDiv">
+          <img src={BLM} className="nnimages" alt="Black Lives Matter"/>
+          <img src={LGBTQIA} className="nnimages" alt="LGBTQIA Friendly" />
+        </div>
+      </div>
       </div>
     );
   }
