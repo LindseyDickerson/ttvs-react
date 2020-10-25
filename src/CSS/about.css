@@ -1,0 +1,54 @@
+.aboutParallax1 {
+    background-image: url('../Assets/pink-and-mint-30.jpg');
+    height: 25rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutBlurb {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: var(--font-main);
+    font-size: large;
+    text-align: center;
+}
+
+.aboutParallax2 {
+    background-image: url('../Assets/croissantTulip.jpg');
+    height: 25rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutParallax3 {
+    background-image: url('../Assets/softPinkTulip.jpg');
+    height: 25rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutParallax4 {
+    background-image: url('../Assets/pinkYellowTulip.jpg');
+    height: 25rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutParallax5 {
+    background-image: url('../Assets/tulipKeyboard.jpg');
+    height: 25rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
