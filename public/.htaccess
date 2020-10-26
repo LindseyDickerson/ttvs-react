@@ -1,0 +1,3 @@
+Options -MultiViews
+RewriteEngine OptionsRewriteCond %{REQUEST_FILENAME} !-
+RewriteRule ^ index.html [QSA, L]
