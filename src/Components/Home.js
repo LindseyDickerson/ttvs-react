@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Parallax , ParallaxBanner } from 'react-scroll-parallax';
+import React from 'react';
+import { Parallax } from 'react-scroll-parallax';
 
 // import Hourglass from '../Assets/hourGlass.jpg';
 // import TulipComputer from '../Assets/tulipComputer.jpg';
@@ -10,7 +10,7 @@ function Home() {
     return (
       <div className="Home">
 
-        <Parallax className="smParallax"></Parallax>  
+        {/* <Parallax className="smParallax"></Parallax>   */}
         <div className="homeText">
             {/* <h1 className="headline" id="is">
                 Is </h1> 

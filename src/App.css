@@ -1,5 +1,7 @@
 .App {
  overflow: hidden;
+ display: flex;
+ background-color: whitesmoke;
 }
 
 @import './CSS/main.css';
@@ -9,11 +11,15 @@
 @import './CSS/footer.css';
 @import './CSS/about.css';
 
-.tulipLogo {
-    height: 35vh;
-    /* border: 1px solid orange; */
-}
 
+.tulipLogo {
+    height: 40vh;
+    width: 100%;
+    border: 1px solid orange;
+    /* margin: 0px 0px -40px 0px; */
+    /* overflow: hidden; */
+    
+}
 
 
 

@@ -1,6 +1,16 @@
+.About {
+    /* background-color: whitesmoke; */
+}
+
+.aboutHeadline {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-main);
+}
+
 .aboutParallax1 {
     background-image: url('../Assets/pink-and-mint-30.jpg');
-    height: 25rem;
+    height: 20rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +29,7 @@
 
 .aboutParallax2 {
     background-image: url('../Assets/croissantTulip.jpg');
-    height: 25rem;
+    height: 20rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +38,7 @@
 
 .aboutParallax3 {
     background-image: url('../Assets/softPinkTulip.jpg');
-    height: 25rem;
+    height: 20rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +47,7 @@
 
 .aboutParallax4 {
     background-image: url('../Assets/pinkYellowTulip.jpg');
-    height: 25rem;
+    height: 20rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +56,7 @@
 
 .aboutParallax5 {
     background-image: url('../Assets/tulipKeyboard.jpg');
-    height: 25rem;
+    height: 20rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,11 +77,15 @@
 .nnImageDiv {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 10%;
+    padding-bottom: 10%;
 }
 .nnimages {
     flex-direction: row;
     align-content: flex-end;
     height: 250px;
     width: 250px;
+}
+
+#blm {
+    background-color: white;
 }

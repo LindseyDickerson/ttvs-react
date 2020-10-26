@@ -5,13 +5,15 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
 import { BrowserRouter as Router } from 'react-router-dom';
-import Logo from './Assets/bannerWhiteBG.png';
+import Logo from './Assets/websiteheader.png';
 
 
 function App() {
   return (
     <div className="App">
-      <img src={Logo} alt="logo" className="tulipLogo"></img>
+      {/* <div className="logoDiv">
+        <img src={Logo} alt="logo" className="tulipLogo"></img>
+      </div> */}
       <Router>
         <Navbar />
       </Router>

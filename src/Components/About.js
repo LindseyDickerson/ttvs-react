@@ -7,9 +7,10 @@ import LGBTQIA from '../Assets/LGBTQIAFriendly.png';
 function About() {
     return (
       <div className="About">
+        <h3 className="aboutHeadline">About Tenacious Tulip</h3>
         <Parallax className="aboutParallax1" >
         </Parallax>
-      <p className="aboutBlurb">At Tenacious Tulip Virtual Services, customer service and online presence is the focus. I provide services to help you manage customer service and maintain a social media presence. From website management,  to creating social media posts and interaction, I can help you. With over 20 years of customer service combined with skills such as web development and social media management, Tenacious Tulip can help you so that you can focus on the core aspects of your business.</p>
+      <p className="aboutBlurb">At Tenacious Tulip Virtual Services, customer service and online presence is the focus. I provide services to maintain an online presence. From website management,  to creating social media posts and interaction, I can help you. With over 20 years of customer service combined with skills such as web development and social media management, Tenacious Tulip can help you so that you can focus on the core aspects of your business.</p>
       <Parallax className="aboutParallax2">
       </Parallax>
       <p className="aboutBlurb">I've spent all of my career being customer focused. I spent over 13 years in the Property & Casualty industry in customer-facing roles, and after being downsized I took a completely different career path. I enrolled in Eleven Fifty Academy's JavaScript Web Deveopment program. This program challenged me in many ways. It taught me to think differently and sparked my creative side. Many might not think of coding as creative, however it is very much a creative process for me. From planning, writing the first line of code, putting the finishing touches, to publishing a site, I enjoy every minute of it.</p>
@@ -27,7 +28,7 @@ function About() {
         <h3 className="nnBlurb">I am proud to stand with those in the BIPOC and LGBTQIA+ community in solidarity.</h3>
         <br/>
         <div className="nnImageDiv">
-          <img src={BLM} className="nnimages" alt="Black Lives Matter"/>
+          <img src={BLM} className="nnimages" alt="Black Lives Matter" id="blm"/>
           <img src={LGBTQIA} className="nnimages" alt="LGBTQIA Friendly" />
         </div>
       </div>

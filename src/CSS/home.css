@@ -1,4 +1,9 @@
+.Home {
+    background-color: whitesmoke;
+}
+
 /* 
+
 .smParallax {
     background-image: url('../Assets/socialMedia.jpg');
     height: 20rem;
@@ -13,6 +18,7 @@
     justify-content: center;
     font-family: var(--font-main);
     /* border: 1px solid orange; */
+    padding: 2%;
 }
 
 .homeText {
@@ -23,18 +29,18 @@
     flex-wrap: nowrap;
     justify-content: center;
     /* margin-top: -80px; */
-    /* margin-bottom: -60px; */
-    
+    /* margin-bottom: -60px; */   
 }
-#socialMedia {
+
+/* #socialMedia {
     font-family: var(--font-cursive);
     font-size: 450%;
     /* border: 1px solid black; */
     /* margin-top: -70px; */
     /* margin-left: 30px; */
-    padding: 10px;
-    flex-wrap: nowrap;
-}
+    /* padding: 10px; */
+    /* flex-wrap: nowrap; */
+/*} */
 
 
 .homeParallax {
