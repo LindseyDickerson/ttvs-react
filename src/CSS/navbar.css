@@ -19,6 +19,7 @@ li {
     width: 12%;
     height: auto;
     /* border: 1px solid hotpink; */
+    padding-left: .25vw;
     padding-right: 2%;
     align-self: flex-start;
     object-fit: cover;
