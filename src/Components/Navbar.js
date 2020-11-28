@@ -21,6 +21,7 @@ import About from './About';
 // import Services from './Services';
 // import Portfolio from './Portfolio';
 import Logo from '../Assets/WatercolorLogoWText.png';
+import TTVS_SMM from '../Assets/TTVS-SMM-PowerPoint.pdf';
 
 function NavbarComponent(props) {
     // const [isOpen, setIsOpen] = useState(false);
@@ -38,6 +39,7 @@ function NavbarComponent(props) {
                <li><Link to="/about">About</Link></li>
                {/* <li><Link to="/services">Services</Link></li> */}
                {/* <li><Link to="/portfolio">Portfolio</Link></li> */}
+               <li><Link to={TTVS_SMM} target="_blank" rel="noopener noreferrer">Services</Link></li>
                <li><a href="https://www.honeybook.com/widget/tenacious_tulip_virtual_services_164228/cf_id/5f74e9d6717a6a709e43fb84" target="_blank" rel="noopener noreferrer">Contact</a></li>
                <li><a href="https://ttvs.hbportal.co/app/" target="_blank" rel="noopener noreferrer">Customer Portal</a></li>
            </ul>
