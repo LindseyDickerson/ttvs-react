@@ -18,6 +18,7 @@ import {Route, Link, Switch} from 'react-router-dom';
 
 import Home from './Home';
 import About from './About';
+import Social from './Social';
 // import Services from './Services';
 // import Portfolio from './Portfolio';
 import Logo from '../Assets/WatercolorLogoWText.png';
@@ -37,6 +38,7 @@ function NavbarComponent(props) {
                {/* <li><img src={Logo} alt="logo" className="logo"></img></li> */}
                <li><Link to="/">Home</Link></li>
                <li><Link to="/about">About</Link></li>
+               <li><Link to="/social">Social</Link></li>
                {/* <li><Link to="/services">Services</Link></li> */}
                {/* <li><Link to="/portfolio">Portfolio</Link></li> */}
                <li><Link to={TTVS_SMM} target="_blank" rel="noopener noreferrer">Services</Link></li>
@@ -49,6 +51,7 @@ function NavbarComponent(props) {
            <Switch>
                <Route exact path="/"><Home /></Route>
                <Route exact path="/about"><About/></Route>
+               <Route exact path="/social"><Social /></Route>
                {/* <Route exact path="/services"><Services/></Route> */}
                
            </Switch>
