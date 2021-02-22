@@ -15,7 +15,7 @@ function Home() {
             {/* <h1 className="headline" id="is">
                 Is </h1> 
                 <p id="socialMedia">Social Media</p>  */}
-                <h1 className="headline" id="takingTime">Is social media taking time away from your business?
+                <h1 className="headline" id="takingTime">Is social medi taking time away from your business?
             </h1>
         </div>
         <Parallax className="homeParallax" >
