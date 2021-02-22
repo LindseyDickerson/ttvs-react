@@ -20,7 +20,7 @@ import Home from './Home';
 import About from './About';
 // import Services from './Services';
 // import Portfolio from './Portfolio';
-import Logo from '../Assets/WatercolorLogoTransparentBG.png';
+import Logo from '../Assets/TTVS.Logo.png';
 
 function NavbarComponent(props) {
     // const [isOpen, setIsOpen] = useState(false);
