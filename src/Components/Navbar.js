@@ -1,4 +1,4 @@
-aimport React, { useState } from 'react';
+import React, { useState } from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
 import {Route, Link, Switch} from 'react-router-dom';
 // import {
@@ -19,7 +19,7 @@ import {Route, Link, Switch} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 // import Services from './Services';
- import Portfolio from '../Assets/SocialMediaContentPortfolio.pdf';
+import Portfolio from '../Assets/SocialMediaContentPortfolio.pdf';
 import Logo from '../Assets/TTVS.Logo.png';
 
 function NavbarComponent(props) {
