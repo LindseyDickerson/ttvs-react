@@ -19,7 +19,7 @@ import {Route, Link, Switch} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 // import Services from './Services';
- import Portfolio from '../Assets/SocialMediaContentPortfolio.pdf';
+import Portfolio from '../Assets/SocialMediaContentPortfolio.pdf';
 import Logo from '../Assets/TTVS.Logo.png';
 
 function NavbarComponent(props) {
@@ -39,9 +39,15 @@ function NavbarComponent(props) {
                {/* <li><Link to="/services">Services</Link></li> */}
                <li><Link to={Portfolio} target="_blank" rel="noopener noreferrer">Portfolio</Link></li>
                <li><a href="https://www.honeybook.com/widget/tenacious_tulip_virtual_services_164228/cf_id/5f74e9d6717a6a709e43fb84" target="_blank" rel="noopener noreferrer">Contact</a></li>
+<<<<<<< HEAD
                <li><a href="https://ttvs.hbportal.co/schedule/5fbc8c58530b512baefe9706" target="_blank" rel="noopener noreferrer">Schedule Consultation</a></li>
                <li><a href="https://ttvs.hbportal.co/app/" target="_blank" rel="noopener noreferrer">Customer Portal</a></li>
                <li><a href="https://etsy.com/shop/tenacioustulipdecals" target="_blank" rel="noopener noreferrer">Etsy Shop</a></li>
+=======
+               <li><a href="https://ttvs.hbportal.co/schedule/5fbc8c58530b512baefe9706" target="_blank" rel="noopener noreferrer">Schedule A Consultation</a></li>
+               <li><a href="https://ttvs.hbportal.co/app/" target="_blank" rel="noopener noreferrer">Customer Portal</a></li>
+               <li><a href="https://www.etsy.com/shop/tenacioustulipdecals" target="_blank" rel="noopener noreferrer">Etsy Shop</a></li>
+>>>>>>> f8f2918032f5948ae68e451f8a603a8051e9d19a
            </ul>
            </div>
        </div>
