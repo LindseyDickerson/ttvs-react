@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+aimport React, { useState } from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
 import {Route, Link, Switch} from 'react-router-dom';
 // import {
@@ -40,6 +40,7 @@ function NavbarComponent(props) {
                <li><Link to={Portfolio} target="_blank" rel="noopener noreferrer">Portfolio</Link></li>
                <li><a href="https://www.honeybook.com/widget/tenacious_tulip_virtual_services_164228/cf_id/5f74e9d6717a6a709e43fb84" target="_blank" rel="noopener noreferrer">Contact</a></li>
                <li><a href="https://ttvs.hbportal.co/app/" target="_blank" rel="noopener noreferrer">Customer Portal</a></li>
+               <li><a href="https://www.etsy.com/shop/tenacioustulipdecals" target="_blank" rel="noopener noreferrer">Etsy Shop</a></li>
            </ul>
            </div>
        </div>
