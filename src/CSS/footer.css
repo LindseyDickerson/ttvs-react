@@ -7,8 +7,48 @@
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
-    border-top: 1px solid black;
+    /* justify-content: center; */
+    border-top: 2px solid black;
     font-family: var(--font-main);
+    align-items: baseline;
 }
 
+.footerLogoDiv {
+    /* border: 1px solid black; */
+    justify-content: flex-start;
+    padding: 1em;
+
+}
+
+#footerLogo {
+    height: 4em;
+    width: 4em;
+    justify-content:flex-start;
+}
+
+.ttvsFooter {
+    /* padding-top: 1em; */
+    /* border: 1px solid black; */
+
+}
+
+ul {
+    /* list-style-type: none; */
+    flex-direction: row;
+    display: inline;
+    padding-top: 1em;
+    /* border: 1px solid hotpink; */
+  
+}
+
+li {
+ display: inline;
+}
+.socialIconFooter {
+    /* border: 1px solid black; */
+    /* flex-direction: row; */
+    height: 1.5em;
+    /* padding-top: 1em; */
+    
+    
+}
