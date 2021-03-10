@@ -8,8 +8,9 @@
     width: 100%;
     display: flex;
     /* justify-content: center; */
-    border-top: 1px solid black;
+    border-top: 2px solid black;
     font-family: var(--font-main);
+    align-items: baseline;
 }
 
 .footerLogoDiv {
@@ -26,13 +27,17 @@
 }
 
 .ttvsFooter {
-    padding-top: 1em;
+    /* padding-top: 1em; */
+    /* border: 1px solid black; */
+
 }
 
 ul {
     /* list-style-type: none; */
     flex-direction: row;
     display: inline;
+    padding-top: 1em;
+    /* border: 1px solid hotpink; */
   
 }
 
@@ -42,7 +47,8 @@ li {
 .socialIconFooter {
     /* border: 1px solid black; */
     /* flex-direction: row; */
-    height: 2.5em;
+    height: 1.5em;
+    /* padding-top: 1em; */
     
     
 }
