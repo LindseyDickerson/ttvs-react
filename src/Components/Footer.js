@@ -6,6 +6,7 @@ import InstaIcon from '../Assets/11.png';
 import TwitterIcon from '../Assets/2.png';
 import PinIcon from '../Assets/12.png';
 import LinkedInIcon from '../Assets/13.png';
+import KoFi from '../Assets/Ko-fi_Logo_RGB.png';
 
 
 function Footer() {
@@ -26,7 +27,9 @@ function Footer() {
                 <li><a href="https://twitter.com/tenacious_tulip" target="_blank" rel="noopener noreferrer"><img src={TwitterIcon} alt="Twitter Link" className="socialIconFooter"></img></a></li>
                 <li><a href="https://www.pinterest.com/tenacioustulipvs/_created/" target="_blank" rel="noopener noreferrer"><img src={PinIcon} alt="Pinterest Link" className="socialIconFooter"/></a></li>
                 <li><a href="https://www.linkedin.com/in/lindseydickerson2/" target="_blank" rel="noopener noreferrer"><img src={LinkedInIcon} alt="LinkedIn Link" className="socialIconFooter"/></a></li>
-              </ul>
+                <li><a href="https://ko-fi.com/lindseydickerson" target="_blank" rel="noopener noreferrer"><img src={KoFi} alt="Ko-Fi Icon" className="socialIconFooter"></img></a></li>
+                
+                </ul>
             </div>
           </div>
     );
