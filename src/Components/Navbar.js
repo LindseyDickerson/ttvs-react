@@ -38,6 +38,7 @@ function NavbarComponent(props) {
                <li><Link to="/about">About</Link></li>
                {/* <li><Link to="/services">Services</Link></li> */}
                <li><Link to={Portfolio} target="_blank" rel="noopener noreferrer">Portfolio</Link></li>
+               <li><a href="https://tenacioustulipvs.wordpress.com/" target="_blank" rel="noopener noreferrer">Blog</a></li>
                <li><a href="https://www.honeybook.com/widget/tenacious_tulip_virtual_services_164228/cf_id/5f74e9d6717a6a709e43fb84" target="_blank" rel="noopener noreferrer">Contact</a></li>
                <li><a href="https://ttvs.hbportal.co/schedule/5fbc8c58530b512baefe9706" target="_blank" rel="noopener noreferrer">Schedule A Consultation</a></li>
                <li><a href="https://ttvs.hbportal.co/app/" target="_blank" rel="noopener noreferrer">Customer Portal</a></li>
