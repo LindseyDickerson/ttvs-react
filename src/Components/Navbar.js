@@ -21,6 +21,7 @@ import About from './About';
 // import Services from './Services';
 import Portfolio from '../Assets/SocialMediaContentPortfolio.pdf';
 import Logo from '../Assets/TTVS.Logo.png';
+import Contest from '../Assets/MermaidVibesInstagramContestTermsConditions.pdf';
 
 function NavbarComponent(props) {
     // const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +43,8 @@ function NavbarComponent(props) {
                <li><a href="https://www.honeybook.com/widget/tenacious_tulip_virtual_services_164228/cf_id/5f74e9d6717a6a709e43fb84" target="_blank" rel="noopener noreferrer">Contact</a></li>
                <li><a href="https://ttvs.hbportal.co/schedule/5fbc8c58530b512baefe9706" target="_blank" rel="noopener noreferrer">Schedule A Consultation</a></li>
                <li><a href="https://ttvs.hbportal.co/app/" target="_blank" rel="noopener noreferrer">Customer Portal</a></li>
-               <li><a href="https://www.etsy.com/shop/tenacioustulipdecals" target="_blank" rel="noopener noreferrer">Etsy Shop</a></li>
+               <li><a href="https://www.etsy.com/shop/tenacioustulipgifts" target="_blank" rel="noopener noreferrer">Etsy Shop</a></li>
+               <li><Link to={Contest} target="_blank" rel="noopener noreferrer">Contest</Link></li>
            </ul>
            </div>
        </div>

@@ -9,6 +9,7 @@ import LinkedInIcon from '../Assets/13.png';
 import KoFi from '../Assets/Ko-fi_Logo_RGB.png';
 
 
+
 function Footer() {
     return (
       <div className="footer">
@@ -28,7 +29,6 @@ function Footer() {
                 <li><a href="https://www.pinterest.com/tenacioustulipvs/_created/" target="_blank" rel="noopener noreferrer"><img src={PinIcon} alt="Pinterest Link" className="socialIconFooter"/></a></li>
                 <li><a href="https://www.linkedin.com/in/lindseydickerson2/" target="_blank" rel="noopener noreferrer"><img src={LinkedInIcon} alt="LinkedIn Link" className="socialIconFooter"/></a></li>
                 <li><a href="https://ko-fi.com/lindseydickerson" target="_blank" rel="noopener noreferrer"><img src={KoFi} alt="Ko-Fi Icon" className="socialIconFooter"></img></a></li>
-                
                 </ul>
             </div>
           </div>
